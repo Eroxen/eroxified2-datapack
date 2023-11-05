@@ -1,0 +1,1 @@
+scoreboard players set #temp eroxified2.internal 1

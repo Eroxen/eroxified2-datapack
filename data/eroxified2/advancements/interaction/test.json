@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+	  "nbt": "{
+            Tags:[\"eroxified2.non_existent_tag\"]
+	  }"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interact"
+    ]
+  ],
+  "rewards": {
+    "function": "eroxified2:interaction/internal/test"
+  }
+}

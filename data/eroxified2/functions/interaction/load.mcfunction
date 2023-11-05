@@ -1,0 +1,1 @@
+scoreboard players set interaction.tick eroxified2.config 0
