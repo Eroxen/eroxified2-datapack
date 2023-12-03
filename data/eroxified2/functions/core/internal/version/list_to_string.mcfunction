@@ -1,0 +1,1 @@
+$data modify storage eroxified2:api core.version.string set value "$(a).$(b).$(c)"

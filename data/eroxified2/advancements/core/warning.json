@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "title": "Warning            ",
+    "description": {
+      "text": "There might be an issue with your installation. For more details, run ",
+      "color": "yellow",
+      "extra": [
+        {
+          "text": "/function eroxified2:_/core/errors",
+          "color": "white"
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "eroxified2:core/success",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

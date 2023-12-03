@@ -1,0 +1,13 @@
+{
+  "condition": "location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "minecraft:player_wall_head"
+      ],
+      "state": {
+        "facing": "north"
+      }
+    }
+  }
+}

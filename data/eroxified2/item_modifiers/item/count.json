@@ -1,0 +1,11 @@
+{
+  "function": "set_count",
+  "count": {
+    "type": "score",
+    "score": "eroxified2.internal",
+    "target": {
+      "type": "fixed",
+      "name": "#item.count"
+    }
+  }
+}

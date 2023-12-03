@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!eroxified2.grounditem.marked] at @s run function eroxified2:grounditem/internal/new

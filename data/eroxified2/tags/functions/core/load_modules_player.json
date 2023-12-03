@@ -1,5 +1,5 @@
 {
   "values": [
-    "eroxified2:interaction/load_player"
+    {id: "eroxified2:interaction/load_player", required: false}
   ]
 }

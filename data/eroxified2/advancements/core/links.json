@@ -1,0 +1,50 @@
+{
+  "parent": "eroxified2:core/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": "Links                                  ",
+    "description": {
+      "text": "Check out my other datapacks at:",
+      "color": "gray",
+      "underlined": false,
+      "extra": [
+        {
+          "text": "\n→"
+        },
+        {
+          "text": "planetminecraft.com/member/eroxen",
+          "color": "aqua",
+          "underlined": true
+        },
+        {
+          "text": "\n→"
+        },
+        {
+          "text": "modrinth.com/user/Eroxen",
+          "color": "aqua",
+          "underlined": true
+        },
+        {
+          "text": "\n→"
+        },
+        {
+          "text": "github.com/Eroxen",
+          "color": "aqua",
+          "underlined": true
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

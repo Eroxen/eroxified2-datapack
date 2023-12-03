@@ -1,0 +1,1 @@
+execute as @a[gamemode=creative] at @s anchored eyes positioned ^ ^ ^4 as @e[type=marker,tag=eroxified2.phead.block.marker,predicate=!eroxified2:phead/head] at @s run function eroxified2:phead.block/api/marker/remove

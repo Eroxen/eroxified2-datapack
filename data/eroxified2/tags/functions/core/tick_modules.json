@@ -1,4 +1,6 @@
 {
   "values": [
+    {id: "eroxified2:grounditem/tick", required: false},
+    {id: "eroxified2:phead.block/tick", required: false}
   ]
 }

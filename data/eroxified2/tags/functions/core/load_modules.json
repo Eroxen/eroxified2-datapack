@@ -1,5 +1,7 @@
 {
   "values": [
-    "eroxified2:interaction/load"
+    {id: "eroxified2:interaction/load", required: false},
+    {id: "eroxified2:math/load", required: false},
+    {id: "eroxified2:datafixer/load", required: false}
   ]
 }

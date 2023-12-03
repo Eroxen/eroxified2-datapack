@@ -1,0 +1,1 @@
+$execute align xyz positioned $(offset) rotated $(y_rotation) 0 run $(command)

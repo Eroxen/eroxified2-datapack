@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-494718992,1760315093,-1106906296,-1163281974],Name:\"Eroxen\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTIxNTM2MTg3NSwKICAicHJvZmlsZUlkIiA6ICJlMjgzMmZmMDY4ZWM0NmQ1YmUwNWYzNDhiYWE5YjljYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcm94ZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZmZWM0ZGM0MmJlM2FlMDYxNjgzYTk1Y2Y2NDE4ZWVlMWZlMjI2M2UzYzQ3MGEwNzcyODJlMzQ4YzgxOTAyNiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkNTUzYjM5MzU4YTI0ZWRmZTNiOGE5YTkzOWZhNWZhNGZhYTRkOWE5YzNkNmFmOGVhZmIzNzdmYTA1YzJiYiIKICAgIH0KICB9Cn0=\"}]}}}"
+    },
+    "title": "Eroxen's Datapacks",
+    "description": "",
+    "background": "minecraft:textures/block/deepslate.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

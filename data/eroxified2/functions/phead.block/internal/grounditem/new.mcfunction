@@ -1,0 +1,2 @@
+# called on any item
+execute if data storage eroxified2:internal grounditem.entity_data.Item{id:"minecraft:player_head"} if data storage eroxified2:internal grounditem.entity_data.Item.tag.SkullOwner.Name unless data storage eroxified2:internal grounditem.entity_data.Item.tag.eroxified2 unless predicate eroxified2:phead/head run function eroxified2:phead.block/internal/grounditem/mined_player_head

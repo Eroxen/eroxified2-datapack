@@ -1,0 +1,1 @@
+scoreboard objectives add eroxified2.datafixer_version dummy
