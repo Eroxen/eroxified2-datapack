@@ -1,0 +1,7 @@
+execute if score #entity.uuid.temp eroxified2.internal matches ..9 run return run execute store result storage eroxified2:internal entity.uuid.list_to_string.hex int 1 run scoreboard players get #entity.uuid.temp eroxified2.internal
+execute if score #entity.uuid.temp eroxified2.internal matches 10 run return run data modify storage eroxified2:internal entity.uuid.list_to_string.hex set value "a"
+execute if score #entity.uuid.temp eroxified2.internal matches 11 run return run data modify storage eroxified2:internal entity.uuid.list_to_string.hex set value "b"
+execute if score #entity.uuid.temp eroxified2.internal matches 12 run return run data modify storage eroxified2:internal entity.uuid.list_to_string.hex set value "c"
+execute if score #entity.uuid.temp eroxified2.internal matches 13 run return run data modify storage eroxified2:internal entity.uuid.list_to_string.hex set value "d"
+execute if score #entity.uuid.temp eroxified2.internal matches 14 run return run data modify storage eroxified2:internal entity.uuid.list_to_string.hex set value "e"
+execute if score #entity.uuid.temp eroxified2.internal matches 15 run return run data modify storage eroxified2:internal entity.uuid.list_to_string.hex set value "f"

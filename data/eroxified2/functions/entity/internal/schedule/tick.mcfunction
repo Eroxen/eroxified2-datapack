@@ -1,0 +1,2 @@
+execute store result score #entity.schedule.current_time eroxified2.internal run time query gametime
+execute if score #entity.schedule.current_time eroxified2.internal >= #entity.schedule.min_time eroxified2.internal run function eroxified2:entity/internal/schedule/pop

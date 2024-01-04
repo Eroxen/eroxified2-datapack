@@ -1,0 +1,2 @@
+$execute if score #math.b64.encoder.bits eroxified2.internal matches 6 run data modify storage eroxified2:internal math.b64.encoder.buffer.char$(batchi) set value "="
+$execute if score #math.b64.encoder.bits eroxified2.internal matches 4 run data modify storage eroxified2:internal math.b64.encoder.buffer.char$(batchi) set value "=="

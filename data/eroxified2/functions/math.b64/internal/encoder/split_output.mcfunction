@@ -1,0 +1,4 @@
+$data modify storage eroxified2:api math.b64.encoder.output append string storage eroxified2:internal math.b64.encoder.buffer.buffer 0 $(i)
+$data modify storage eroxified2:internal math.b64.encoder.buffer.buffer set string storage eroxified2:internal math.b64.encoder.buffer.buffer $(i)
+scoreboard players operation #math.b64.encoder.i eroxified2.internal -= math.b64.encoder.split eroxified2.api
+execute if score #math.b64.encoder.i eroxified2.internal >= math.b64.encoder.split eroxified2.api run function eroxified2:math.b64/internal/encoder/split_output with storage eroxified2:internal math.b64.encoder.macro

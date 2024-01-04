@@ -1,0 +1,1 @@
+execute if score #entity.scheduled_events eroxified2.internal matches 1 run function eroxified2:entity/internal/schedule/tick

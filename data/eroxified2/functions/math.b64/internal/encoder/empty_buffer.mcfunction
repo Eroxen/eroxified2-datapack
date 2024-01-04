@@ -1,0 +1,1 @@
+$function eroxified2:math.b64/internal/encoder/add_to_buffer/$(batchi) with storage eroxified2:internal math.b64.encoder.buffer

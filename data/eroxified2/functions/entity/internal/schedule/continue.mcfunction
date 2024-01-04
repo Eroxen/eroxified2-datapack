@@ -1,0 +1,2 @@
+execute store result score #entity.schedule.min_time eroxified2.internal run data get storage eroxified2:internal entity.scheduled_events[0].time 1
+execute if score #entity.schedule.current_time eroxified2.internal >= #entity.schedule.min_time eroxified2.internal run function eroxified2:entity/internal/schedule/pop

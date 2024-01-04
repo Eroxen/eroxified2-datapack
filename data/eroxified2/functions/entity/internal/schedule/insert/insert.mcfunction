@@ -1,0 +1,1 @@
+$data modify storage eroxified2:internal entity.scheduled_events insert $(index) from storage eroxified2:internal entity.schedule.item

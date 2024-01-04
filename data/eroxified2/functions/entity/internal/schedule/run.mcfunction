@@ -1,0 +1,1 @@
+$execute as $(entity) at @s run $(command)

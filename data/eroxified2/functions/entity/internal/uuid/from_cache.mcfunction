@@ -1,0 +1,2 @@
+data remove storage eroxified2:internal entity.uuid.cache_item
+$data modify storage eroxified2:internal entity.uuid.cache_item set from storage eroxified2:internal entity.uuid.cache[{list:"$(UUID)"}].string
