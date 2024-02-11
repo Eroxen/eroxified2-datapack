@@ -1,0 +1,2 @@
+execute as @a[tag=eroxified2.player_event.sneaking,scores={eroxified2.player_event.sneak=0}] run function eroxified2:player_event/internal/sneak/stop
+execute as @a[scores={eroxified2.player_event.sneak=1..}] run function eroxified2:player_event/internal/sneak/tick

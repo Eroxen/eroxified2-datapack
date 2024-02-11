@@ -1,0 +1,1 @@
+scoreboard objectives add eroxified2.player_event.sneak minecraft.custom:minecraft.sneak_time

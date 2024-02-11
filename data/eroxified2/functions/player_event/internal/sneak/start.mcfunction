@@ -1,0 +1,1 @@
+tag @s add eroxified2.player_event.sneaking
