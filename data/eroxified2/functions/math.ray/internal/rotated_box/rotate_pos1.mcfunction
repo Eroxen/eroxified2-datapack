@@ -1,2 +1,2 @@
-$execute rotated -$(x_rotation) -$(y_rotation) positioned 0.0 0.0 0.0 run tp @s ^$(rotate_pos1_x) ^$(rotate_pos1_y) ^$(rotate_pos1_z)
+$execute rotated $(x_rotation) $(y_rotation) positioned 0.0 0.0 0.0 run tp @s ^$(rotate_pos1_x) ^$(rotate_pos1_y) ^$(rotate_pos1_z)
 data modify storage eroxified2:internal math.ray.pos1 set from entity @s Pos

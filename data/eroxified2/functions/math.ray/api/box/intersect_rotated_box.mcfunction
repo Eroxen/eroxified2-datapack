@@ -29,6 +29,9 @@ scoreboard players set math.ray.hit.axis eroxified2.api -1
 scoreboard players set math.ray.hit.face eroxified2.api -1
 $data modify storage eroxified2:internal math.ray set value {box:{from:$(from),to:$(to),origin:$(origin),x_rotation:$(box_x_rotation),y_rotation:$(box_y_rotation)},rotation:$(rotation)}
 
+
+execute store result storage eroxified2:internal math.ray.box.x_rotation float 0.001 run data get storage eroxified2:internal math.ray.box.x_rotation -1000
+execute store result storage eroxified2:internal math.ray.box.y_rotation float 0.001 run data get storage eroxified2:internal math.ray.box.y_rotation -1000
 execute summon marker run function eroxified2:math.ray/internal/rotated_box/start_ray with storage eroxified2:internal math.ray.box
 
 
