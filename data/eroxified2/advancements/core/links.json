@@ -2,7 +2,7 @@
   "parent": "eroxified2:core/root",
   "display": {
     "icon": {
-      "item": "minecraft:spyglass"
+      "id": "minecraft:spyglass"
     },
     "title": "Links                                  ",
     "description": {

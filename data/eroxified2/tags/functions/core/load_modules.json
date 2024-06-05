@@ -4,6 +4,7 @@
     {id: "eroxified2:math/load", required: false},
     {id: "eroxified2:math.b64/load", required: false},
     {id: "eroxified2:datafixer/load", required: false},
-    {id: "eroxified2:player_event/load", required: false}
+    {id: "eroxified2:player_event/load", required: false},
+    {id: "eroxified2:entity/load", required: false}
   ]
 }

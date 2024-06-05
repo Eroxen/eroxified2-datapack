@@ -29,5 +29,7 @@ execute store result score #entity.schedule.delay eroxified2.internal run data g
 scoreboard players operation #entity.schedule.time eroxified2.internal += #entity.schedule.delay eroxified2.internal
 execute store result storage eroxified2:internal entity.schedule.item.time int 1 run scoreboard players get #entity.schedule.time eroxified2.internal
 
+execute if data storage eroxified2:api entity.schedule{overwrite:true} run function eroxified2:entity/internal/schedule/overwrite with storage eroxified2:internal entity.schedule.item
+
 execute if data storage eroxified2:internal entity.scheduled_events[0] run function eroxified2:entity/internal/schedule/insert
 execute unless data storage eroxified2:internal entity.scheduled_events[0] run function eroxified2:entity/internal/schedule/init
