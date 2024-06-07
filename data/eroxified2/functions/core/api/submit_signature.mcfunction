@@ -21,6 +21,10 @@ data modify storage eroxified2:internal core.register_pack.version.string set fr
 data modify storage eroxified2:internal core.register_pack.id set from storage eroxified2:api pack_signature.id
 data modify storage eroxified2:internal core.register_pack.name set from storage eroxified2:api pack_signature.name
 
+execute if data storage eroxified2:api pack_signature.required_eroxified2_version run data modify storage eroxified2:api core.version.list set from storage eroxified2:api pack_signature.required_eroxified2_version
+execute if data storage eroxified2:api pack_signature.required_eroxified2_version run function eroxified2:core/api/version/list_to_score
+execute if data storage eroxified2:api pack_signature.required_eroxified2_version if score core.version eroxified2.api > #eroxified2.installed_version eroxified2.internal run function eroxified2:core/internal/load/outdated_eroxified2_version
+
 execute if data storage eroxified2:api pack_signature.included_eroxified2_version run data modify storage eroxified2:api core.version.list set from storage eroxified2:api pack_signature.included_eroxified2_version
 execute if data storage eroxified2:api pack_signature.included_eroxified2_version run function eroxified2:core/api/version/list_to_score
 execute if data storage eroxified2:api pack_signature.included_eroxified2_version if score core.version eroxified2.api > #eroxified2.max_version eroxified2.internal run function eroxified2:core/internal/load/find_higher_version

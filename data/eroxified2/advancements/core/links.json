@@ -14,14 +14,6 @@
           "text": "\n→"
         },
         {
-          "text": "planetminecraft.com/member/eroxen",
-          "color": "aqua",
-          "underlined": true
-        },
-        {
-          "text": "\n→"
-        },
-        {
           "text": "modrinth.com/user/Eroxen",
           "color": "aqua",
           "underlined": true
@@ -30,7 +22,26 @@
           "text": "\n→"
         },
         {
+          "text": "planetminecraft.com/member/eroxen",
+          "color": "aqua",
+          "underlined": true
+        },
+        {
+          "text": "\n→"
+        },
+        {
           "text": "github.com/Eroxen",
+          "color": "aqua",
+          "underlined": true
+        },
+        {
+          "text": "\nFor support & feedback, visit:"
+        },
+        {
+          "text": "\n→"
+        },
+        {
+          "text": "discord.gg/p6jh5j2fY3",
           "color": "aqua",
           "underlined": true
         }

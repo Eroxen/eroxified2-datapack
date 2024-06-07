@@ -16,6 +16,7 @@ function eroxified2:core/api/version/list_to_score
 function eroxified2:core/api/version/list_to_string
 execute store result storage eroxified2:internal eroxified2.version.int int 1 run scoreboard players get core.version eroxified2.api
 data modify storage eroxified2:internal eroxified2.version.string set from storage eroxified2:api core.version.string
+scoreboard players operation #eroxified2.installed_version eroxified2.internal = core.version eroxified2.api
 scoreboard players operation #eroxified2.max_version eroxified2.internal = core.version eroxified2.api
 
 function #eroxified2:core/load_modules

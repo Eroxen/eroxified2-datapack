@@ -1,0 +1,2 @@
+execute as @a if items entity @s weapon.mainhand minecraft:stick[minecraft:custom_data~{i_only_exist_to_see_if_this_function_will_parse_correctly:1b}]
+scoreboard players set #core.unittest eroxified2.internal 1

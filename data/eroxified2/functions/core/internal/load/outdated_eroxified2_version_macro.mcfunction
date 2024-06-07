@@ -1,0 +1,1 @@
+$data modify storage eroxified2:internal eroxified2.warnings append value {id:"outdated_eroxified2_version",message:'{"text":"$(pack_name) requires Eroxified2 v$(required_version), but v","extra":[{"storage":"eroxified2:internal","nbt":"eroxified2.version.string"},{"text":" is installed."}]}'}
