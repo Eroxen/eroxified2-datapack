@@ -1,0 +1,3 @@
+data modify storage eroxified2:internal math.b64.decoder.buffer.string set from storage eroxified2:internal math.b64.decoder.buffer.list[0]
+data remove storage eroxified2:internal math.b64.decoder.buffer.list[0]
+execute if data storage eroxified2:internal math.b64.decoder.buffer{string:""} if data storage eroxified2:internal math.b64.decoder.buffer.list[0] run function eroxified2:math.b64/internal/decoder/next_string
