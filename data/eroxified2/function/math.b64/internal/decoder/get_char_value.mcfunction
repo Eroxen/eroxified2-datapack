@@ -1,1 +1,1 @@
-$execute store result score #math.b64.decoder.char_value eroxified2.internal run data get storage eroxified2:internal math.b64.lookup.i.$(c) 1
+$execute if data storage eroxified2:internal math.b64.lookup.i.$(c) store result score #math.b64.decoder.char_value eroxified2.internal run data get storage eroxified2:internal math.b64.lookup.i.$(c) 1
