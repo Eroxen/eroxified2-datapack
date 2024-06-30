@@ -1,0 +1,12 @@
+{
+  "values": [
+    {"id": "eroxified2:interaction/unload", "required": false},
+    {"id": "eroxified2:math/unload", "required": false},
+    {"id": "eroxified2:item/unload", "required": false},
+    {"id": "eroxified2:datafixer/unload", "required": false},
+    {"id": "eroxified2:player_event/unload", "required": false},
+    {"id": "eroxified2:grounditem/unload", "required": false},
+    {"id": "eroxified2:entity/unload", "required": false},
+    {"id": "eroxified2:phead/unload", "required": false}
+  ]
+}
