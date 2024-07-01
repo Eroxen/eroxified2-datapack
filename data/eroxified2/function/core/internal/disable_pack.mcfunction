@@ -1,2 +1,2 @@
-$datapack disable "file/$(id)_v$(version)_datapack.zip"
-$datapack disable "file/$(id)_v$(version)_datapack"
+$datapack disable "file/$(id)-v$(version)-datapack.zip"
+$datapack disable "file/$(id)-v$(version)-datapack"
