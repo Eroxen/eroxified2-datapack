@@ -1,1 +1,1 @@
-data modify storage eroxified2:api pack_signature set value {id:"eroxified2",version:[2,2,1]}
+data modify storage eroxified2:api pack_signature set value {id:"eroxified2",version:[2,2,2]}
