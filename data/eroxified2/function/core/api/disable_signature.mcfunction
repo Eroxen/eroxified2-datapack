@@ -16,6 +16,6 @@ data modify storage eroxified2:internal core.disable_pack.version set from stora
 data modify storage eroxified2:internal core.disable_pack.id set from storage eroxified2:api pack_signature.id
 
 function eroxified2:core/internal/uninstall/uninstall_except_core
-function eroxified2:core/internal/disable_pack with storage eroxified2:internal core.disable_pack
+function eroxified2:core/internal/uninstall/disable_pack with storage eroxified2:internal core.disable_pack
 data remove storage eroxified2:api core
 data remove storage eroxified2:internal core
