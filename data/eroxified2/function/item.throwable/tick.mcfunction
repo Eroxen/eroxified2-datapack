@@ -1,0 +1,1 @@
+execute as @a[scores={eroxified2.item.used.lingering_potion=1..}] at @s anchored eyes positioned ^ ^ ^ run function eroxified2:item.throwable/internal/used/lingering_potion

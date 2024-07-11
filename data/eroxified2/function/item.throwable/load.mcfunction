@@ -1,0 +1,1 @@
+scoreboard objectives add eroxified2.item.used.lingering_potion minecraft.used:minecraft.lingering_potion

@@ -1,0 +1,1 @@
+stopsound @s * minecraft:entity.lingering_potion.throw

@@ -1,0 +1,1 @@
+scoreboard objectives remove eroxified2.item.used.lingering_potion

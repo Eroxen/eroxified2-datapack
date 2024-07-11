@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "eroxified2:item.throwable/internal/stopsound/lingering_potion"
+    }
+  }
+  
