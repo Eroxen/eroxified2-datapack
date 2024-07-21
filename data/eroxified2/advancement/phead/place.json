@@ -1,27 +1,22 @@
 {
   "criteria": {
-    "place": {
+    "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": [
-                "minecraft:player_head"
-              ],
-	      "nbt": "{eroxified2:{phead:{detect:1b}}}"
+              "items": "minecraft:player_head",
+              "predicates": {
+                "minecraft:custom_data": "{eroxified2:{phead:{detect:true}}}"
+              }
             }
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "place"
-    ]
-  ],
   "rewards": {
     "function": "eroxified2:phead/internal/place"
   }

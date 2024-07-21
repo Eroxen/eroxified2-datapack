@@ -41,6 +41,7 @@ scoreboard players operation #math.ray.box.z.x eroxified2.internal += #math.ray.
 
 scoreboard players operation #math.ray.box.z.y eroxified2.internal = #math.ray.box.z.perp eroxified2.internal
 scoreboard players operation #math.ray.box.z.y eroxified2.internal *= #math.ray.dy eroxified2.internal
+scoreboard players operation #math.ray.box.z.y eroxified2.internal *= #math.const.-1 eroxified2.internal
 scoreboard players operation #math.ray.box.z.y eroxified2.internal /= #math.ray.dz eroxified2.internal
 scoreboard players operation #math.ray.box.z.y eroxified2.internal += #math.ray.pos1.y eroxified2.internal
 

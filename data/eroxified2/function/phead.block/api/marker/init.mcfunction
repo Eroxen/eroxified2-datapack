@@ -12,6 +12,6 @@
 tag @s add eroxified2.phead.block.marker
 
 data modify storage eroxified2:internal phead.marker_data set value {}
-data modify storage eroxified2:internal phead.marker_data.namespaced_id set from storage eroxified2:api phead.place.namespaced_id
+data modify storage eroxified2:internal phead.marker_data.id set from storage eroxified2:api phead.place.id
 
 data modify entity @s data.eroxified2.phead set from storage eroxified2:internal phead.marker_data

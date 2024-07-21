@@ -1,2 +1,1 @@
-$execute align xyz as @e[type=marker,dx=0,dy=0,dz=0,tag=eroxified2.phead.block.marker,nbt=!{data:{eroxified2:{phead:{namespaced_id:"$(namespaced_id)"}}}}] at @s run function eroxified2:phead.block/api/marker/remove
-$execute align xyz as @e[type=marker,dx=0,dy=0,dz=0,tag=eroxified2.phead.block.marker,nbt={data:{eroxified2:{phead:{namespaced_id:"$(namespaced_id)"}}}},limit=1] run scoreboard players set #return eroxified2.internal 1
+function eroxified2:phead.block/internal/scan_for_exisiting_marker_macro with storage eroxified2:internal phead.scan_head

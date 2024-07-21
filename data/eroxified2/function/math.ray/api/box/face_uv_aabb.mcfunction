@@ -26,7 +26,10 @@
 $function eroxified2:math.ray/api/box/intersect_aabb {from:$(from),to:$(to),origin:$(origin),rotation:$(rotation)}
 execute if score math.ray.hit eroxified2.api matches 0 run return 0
 
-#tellraw @a [{"score":{"name":"math.ray.hit.x","objective":"eroxified2.api"}},{"text":" "},{"score":{"name":"math.ray.hit.y","objective":"eroxified2.api"}},{"text":" "},{"score":{"name":"math.ray.hit.z","objective":"eroxified2.api"}}]
+# tellraw @a [{"score":{"name":"math.ray.hit.x","objective":"eroxified2.api"}},{"text":" "},{"score":{"name":"math.ray.hit.y","objective":"eroxified2.api"}},{"text":" "},{"score":{"name":"math.ray.hit.z","objective":"eroxified2.api"}}]
+scoreboard players operation #math.ray.dx.sign eroxified2.internal *= #math.const.-1 eroxified2.internal
+scoreboard players operation #math.ray.dy.sign eroxified2.internal *= #math.const.-1 eroxified2.internal
+scoreboard players operation #math.ray.dz.sign eroxified2.internal *= #math.const.-1 eroxified2.internal
 
 execute if score math.ray.hit.axis eroxified2.api matches 0 run function eroxified2:math.ray/internal/aabb/face_uv_x
 execute if score math.ray.hit.axis eroxified2.api matches 1 run function eroxified2:math.ray/internal/aabb/face_uv_y

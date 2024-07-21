@@ -1,2 +1,0 @@
-$data modify storage eroxified2:internal phead.context_internal.namespace set string storage eroxified2:internal phead.context_internal.namespaced_id 0 $(a)
-$data modify storage eroxified2:internal phead.context_internal.id set string storage eroxified2:internal phead.context_internal.namespaced_id $(b)

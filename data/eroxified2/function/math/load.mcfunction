@@ -1,4 +1,5 @@
 scoreboard players set #math.const.-1 eroxified2.internal -1
+scoreboard players set #math.const.-1000 eroxified2.internal -1000
 scoreboard players set #math.const.2 eroxified2.internal 2
 scoreboard players set #math.const.2^30 eroxified2.internal 1073741824
 scoreboard players set #math.const.2^28 eroxified2.internal 268435456

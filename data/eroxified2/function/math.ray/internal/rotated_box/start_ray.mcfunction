@@ -9,7 +9,7 @@ data modify storage eroxified2:internal math.ray.delta set from entity @s Pos
 
 execute store result score #math.ray.dx eroxified2.internal run data get storage eroxified2:internal math.ray.delta[0] -1000
 execute store result score #math.ray.pos1.x eroxified2.internal run data get storage eroxified2:internal math.ray.pos1[0] 1000
-execute store result score #math.ray.dy eroxified2.internal run data get storage eroxified2:internal math.ray.delta[1] 1000
+execute store result score #math.ray.dy eroxified2.internal run data get storage eroxified2:internal math.ray.delta[1] -1000
 execute store result score #math.ray.pos1.y eroxified2.internal run data get storage eroxified2:internal math.ray.pos1[1] 1000
 execute store result score #math.ray.dz eroxified2.internal run data get storage eroxified2:internal math.ray.delta[2] -1000
 execute store result score #math.ray.pos1.z eroxified2.internal run data get storage eroxified2:internal math.ray.pos1[2] 1000

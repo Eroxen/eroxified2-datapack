@@ -1,1 +1,0 @@
-$execute align xyz as @e[type=marker,dx=0,dy=0,dz=0,tag=eroxified2.phead.block.marker,nbt={data:{eroxified2:{phead:{namespaced_id:"$(namespaced_id)"}}}}] at @s run function #eroxified2:phead/mined

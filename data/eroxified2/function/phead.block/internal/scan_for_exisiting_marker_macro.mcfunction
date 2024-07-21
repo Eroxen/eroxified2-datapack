@@ -1,0 +1,2 @@
+$execute align xyz as @e[type=marker,dx=0,dy=0,dz=0,tag=eroxified2.phead.block.marker,nbt=!{data:{eroxified2:{phead:{id:"$(id)"}}}}] at @s run function eroxified2:phead.block/api/marker/remove
+$execute align xyz as @e[type=marker,dx=0,dy=0,dz=0,tag=eroxified2.phead.block.marker,nbt={data:{eroxified2:{phead:{id:"$(id)"}}}},limit=1] run scoreboard players set #return eroxified2.internal 1
