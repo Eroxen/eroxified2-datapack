@@ -1,1 +1,2 @@
 scoreboard objectives remove eroxified2.datafixer_version
+data remove storage eroxified2:internal datafixer
