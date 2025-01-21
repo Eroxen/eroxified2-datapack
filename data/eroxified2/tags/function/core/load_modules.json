@@ -7,6 +7,7 @@
     {"id": "eroxified2:datafixer/load", "required": false},
     {"id": "eroxified2:player_event/load", "required": false},
     {"id": "eroxified2:entity/load", "required": false},
-    {"id": "eroxified2:barrelgui/load", "required": false}
+    {"id": "eroxified2:barrelgui/load", "required": false},
+    {"id": "eroxified2:playerid/load", "required": false}
   ]
 }
