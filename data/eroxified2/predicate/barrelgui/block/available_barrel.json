@@ -1,0 +1,28 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:barrel",
+                    "state": {
+                      "open": "true"
+                    },
+                    "nbt": "{components:{\"minecraft:custom_data\":{eroxified2:{barrelgui:{}}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "nbt": "{lock:{}}"
+                    }
+                }
+            }
+        }
+    ]
+}

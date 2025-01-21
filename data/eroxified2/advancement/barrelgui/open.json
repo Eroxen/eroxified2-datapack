@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "use": {
+        "trigger": "minecraft:default_block_use",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:barrel",
+                  "nbt": "{components:{\"minecraft:custom_data\":{eroxified2:{barrelgui:{}}}}}"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{lock:{}}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "eroxified2:barrelgui/internal/trigger/click_barrel"
+    }
+}

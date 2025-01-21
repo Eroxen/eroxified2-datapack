@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ barrel[open=false,facing=$(facing)]$(data)

@@ -1,0 +1,2 @@
+say c
+kill @s
